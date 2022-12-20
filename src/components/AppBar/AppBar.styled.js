@@ -15,18 +15,17 @@ export const NavLinks = styled(NavLink)`
   text-decoration: none;
 
   border-radius: 4px;
-  color: black;
 
   padding: 10px;
   font-size: 22px;
 
   &.active {
-    background-color: orange;
+    background-color: blue;
     color: white;
   }
 
   :hover:not(.active),
   :focus-visible:not(.active) {
-    color: blue;
+    color: red;
   }
 `;

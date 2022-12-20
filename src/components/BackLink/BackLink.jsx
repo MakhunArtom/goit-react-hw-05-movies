@@ -5,14 +5,10 @@ import styled from '@emotion/styled';
 const StyledLink = styled(Link)`
   display: inline-flex;
   align-items: center;
-  gap: 4px;
   padding: 8px 8px;
   margin-left: 20px;
-  color: #33d1aa;
   text-decoration: none;
   font-weight: 500;
-  border: 2px solid tomato;
-  border-radius: 3px;
 
   :hover {
     color: orangered;
